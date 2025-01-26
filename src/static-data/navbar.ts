@@ -28,35 +28,35 @@ export const navbarData: NavbarItem[] = [
   },
   {
     id: uuid(),
-    title: "Pages",
+    title: "Разработка",
     submenu: [
       {
         id: uuid(),
-        title: "Home",
+        title: "Bitrix",
         href: "/",
         external: false,
       },
       {
         id: uuid(),
-        title: "Docs",
+        title: "AmoCRM",
         href: "/docs",
         external: false,
       },
       {
         id: uuid(),
-        title: "Support",
+        title: "1C",
         href: "/support",
         external: false,
       },
       {
         id: uuid(),
-        title: "Blog",
+        title: "Telegram bot",
         href: "/blog",
         external: false,
       },
       {
         id: uuid(),
-        title: "Sign in",
+        title: "Telegram miniApp",
         href: "/auth/signin",
         external: false,
       },
@@ -72,6 +72,24 @@ export const navbarData: NavbarItem[] = [
         href: "/error",
         external: false,
       },
+    ],
+  },
+  {
+    id: uuid(),
+    title: "Консалтинг",
+    submenu: [
+      {
+        id: uuid(),
+        title: "Аудит IT",
+        href: "/",
+        external: false,
+      },
+      {
+        id: uuid(),
+        title: "Анализ IT решений",
+        href: "/docs",
+        external: false,
+      }
     ],
   },
 ];

@@ -26,11 +26,6 @@ export default function Home() {
       <Hero />
       <Features />
       <About />
-      <Team />
-      <Portfolio />
-      <Testimonials />
-      <Brands />
-      <Pricing />
       {integrations?.isSanityEnabled && <HomeBlogSection />}
       <Support />
       <CallToAction />

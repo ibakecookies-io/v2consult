@@ -9,8 +9,8 @@ export default function Features() {
         {/* <!-- Section Title --> */}
         <SectionTitle
           mainTitle="Feature"
-          title="Essential Integrations with Modern Design"
-          paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus."
+          title="Комплексные IT-решения для вашего бизнеса"
+          paragraph="Мы внедряем системы автоматизации, создаем Telegram-ботов, разрабатываем BI-решения и обеспечиваем техническую поддержку на всех этапах."
         />
 
         <div className="-mx-4 flex flex-wrap justify-center">

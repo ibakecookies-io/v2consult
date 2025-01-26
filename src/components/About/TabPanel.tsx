@@ -2,6 +2,7 @@ import Image from "next/image";
 
 export default function TabPanel({
   title,
+  title2,
   image1,
   image1Alt,
   image2,
@@ -62,9 +63,9 @@ export default function TabPanel({
       </div>
       <div className="w-full px-4 lg:w-1/2">
         <div className="max-w-[565px] lg:ml-auto">
-          <h2 className="mb-8 font-heading text-2xl font-bold text-dark dark:text-white sm:text-[40px] sm:leading-[50px]">
-            {title}
-          </h2>
+          <p className="mb-8 font-heading text-2xl font-bold text-dark dark:text-white sm:text-[40px] sm:leading-[50px]">
+          {title}
+          </p>
           {children}
         </div>
       </div>

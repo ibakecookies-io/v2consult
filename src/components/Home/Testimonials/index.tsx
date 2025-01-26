@@ -33,7 +33,6 @@ export default function Testimonials() {
                     y="279"
                     width="272.933"
                     height="328.051"
-                    fill="url(#paint0_linear_41_257)"
                   />
                 </g>
                 <defs>

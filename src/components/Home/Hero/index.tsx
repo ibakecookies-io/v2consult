@@ -14,7 +14,9 @@ export default function Hero() {
           <div className="w-full px-3 lg:w-1/2">
             <div className="mx-auto mb-12 max-w-[530px] text-center lg:mb-0 lg:ml-0 lg:text-left">
               <h1 className="mb-5 font-heading text-2xl font-semibold dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
-                Для вашего бизнеса сделаем {" "}
+                Ваш бизнес. Наши ИТ-решения {" "}
+              </h1>
+              <h1 className="mb-5 font-heading text-2xl font-semibold dark:text-white sm:text-4xl md:text-[50px] md:leading-[60px]">
                 <Typewriter
                   words={["AmoCRM", "Bitrix24", "1C", "Tg-боты и miniApp"]}
                   cursor
@@ -25,10 +27,12 @@ export default function Hero() {
                   delaySpeed={1000}
                 />
               </h1>
-              <p className="mb-12 text-base text-dark-text">
-                Handcrafted Next.js starter for your next - Startup,
-                Business, Agency or SaaS Website. Comes with refreshing design, integrations
-                and everything you need to kickstart your next web project.
+              <p className="mb-14 text-base text-dark-text"> 
+               Мы - команда опытных ИТ-специалистов, предлагающих полный спектр услуг: от разработки чат-ботов и интеграции CRM-систем до создания BI-платформ и аутсорсинга ИТ-задач.
+              </p>
+              <p className="mb-14 text-base text-dark-text">
+              Разрабатываем и внедряем эффективные ИТ-решения для роста вашего бизнеса. 
+              От автоматизации процессов до анализа данных - мы поможем вам достичь новых высот.
               </p>
               <div className="flex flex-wrap items-center justify-center lg:justify-start">
                 <a
